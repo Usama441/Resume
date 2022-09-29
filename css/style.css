@@ -1,0 +1,157 @@
+
+/*********************** TAGS *******************/
+
+body
+{
+  margin: 0px;
+  padding: 0px;
+  height:auto ;
+  width: auto;
+}
+
+h1
+{
+
+  color:black;
+  background-position: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h3
+{
+  color: black;
+  text-align: left;
+}
+h2{
+
+    color: #FF9551;
+    border-bottom: solid;
+    border-color: #FF9551;
+    padding-right: 70%;
+    margin-left: 20%;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+p
+{
+      color: black;
+      text-align: left;
+      font-size: 0.8rem;
+
+}
+
+
+/******************** left section ***************/
+
+.container
+{
+display: flex;
+flex-direction: row;
+}
+.left_section{
+    width: 20%;
+    background-color: #ffd7b9;
+    text-align: center;
+    display:inline-block;
+    overflow: hidden;
+}
+.my_dp
+{
+
+  width: 150px;
+  height: 150px;
+  margin-top: 95px;
+  border:5px solid;
+  border-color: #FF9551;
+  transform: rotate(49deg);
+  padding: 5px;
+  margin-bottom: 20px;
+
+ display: inline-block;
+}
+
+.interest-categories{
+    color:  #FF9551;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: inherit;
+    margin-left: 19%;
+
+}
+
+.contact{
+    padding-right: 50px;
+    margin-top: 200px;
+    margin-bottom: 5px;
+
+
+}
+
+.contact-details{
+  text-align: left;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+
+}
+.right-section
+{
+width: 80%;
+background-color: #efeeed;
+display: inline-block;
+overflow: hidden;
+
+}
+.title-under-name
+{
+  text-align:center;
+}
+.right-h2
+{
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+.dates
+{
+  margin-left: 10%;
+}
+
+.right-p-block
+{
+  font-weight: normal;
+  font-size: 0.8em;
+  font-family: sans-serif;
+}
+
+.education-detail
+{
+display: flex;
+flex-direction: row;
+gap: 5rem;
+margin-left: 10.5%;
+}
+
+.experince-detail
+{
+display: flex;
+flex-direction: row;
+gap: 5rem;
+margin-left: 10.5%;
+}
+.skills-section
+{
+  display: flex;
+  flex-direction: row;
+  gap: 20rem;
+  margin-left: 10.5%;
+}
+.language
+{
+  margin-left:;
+}
+}
